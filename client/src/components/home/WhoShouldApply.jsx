@@ -29,6 +29,7 @@ export default function WhoShouldApply({ onApply }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1, duration: 0.5 }}
+            className="h-full"
           >
             <TrackCard track={track} onApply={onApply} />
           </motion.div>
